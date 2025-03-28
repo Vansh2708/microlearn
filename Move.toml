@@ -1,0 +1,15 @@
+[package]
+name = "Microlearning-apps-with-instant-token-rewards"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MicroLearn = "0xd3aa5c20fbef93684dd672b9bbf4f41ca02c71a4fbfb6272bdc9a16317cc83da"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
